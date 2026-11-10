@@ -116,6 +116,18 @@ const Footer = () => {
       <div className="border-t border-white/15 bg-[#0b2560]">
         <div className="max-w-7xl mx-auto px-4 sm:px-10 lg:px-12 py-4 text-[11px] text-white flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
           <p className="hover:opacity-80 transition-opacity duration-300">&copy; 2026 ZAIN Education Consultancy. All rights reserved.</p>
+
+        <p className="mt-2 text-xs opacity-75 text-center">
+          Powered by{" "}
+          <a
+            href="https://www.crevionads.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium underline hover:opacity-100 transition-opacity"
+          >
+            Crevion Ads
+          </a>
+        </p>
           <div className="flex items-center gap-6 sm:gap-8">
             <a href="#" className="text-white hover:opacity-80 transition-opacity duration-300">Privacy Policy</a>
             <a href="#" className="text-white hover:opacity-80 transition-opacity duration-300">Terms of Service</a>
